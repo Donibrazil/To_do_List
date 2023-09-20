@@ -1,16 +1,12 @@
 ## Background & Objectives
 
-Welcome to To-do-List App.jsx!
+Welcome!
 
-[React](https://reactjs.org/) is a JavaScript library for building user interfaces. It is a very popular library, used by Facebook, Instagram, Netflix, Airbnb, and many other companies. React apps are made out of components: a piece of UI that has its own logic and appearance.
-
-You will learn the basics of React by building a to-do list APP, with which you can do the following:
+[React](https://reactjs.org/) is a JavaScript library for building user interfaces. It is a very popular library, used by Facebook, Instagram, Netflix, Airbnb, and many other companies. React apps are made out of components: by building a to-do list APP, with which you can do the following:
 
 - See all your to-do items
 - Add a to-do item(Optional)
 - Remove a to-do item(Optional)
-
-(Yes, this is the same functionality as in the Vue challenge 💪)
 
 ### Setup
 
@@ -43,7 +39,7 @@ The first two libraries are React itself. The third is Babel, which can process 
 <script src="lib/to-do-list.jsx" type="text/babel"></script>
 ```
 
-The `type="text/babel"` tells Babel to process our JavaScript. So, we should be all good to write JSX 💪 You may notice that we're importing our scripts slightly differently in this challenge from all the others, because this setup isn't compatible with import maps at the moment. But don't worry - it won't affect the code you'll end up writing.
+The `type="text/babel"` tells Babel to process our JavaScript. So, we should be all good to write JSX 💪this setup isn't compatible with import maps at the moment. But don't worry - it won't affect the code you'll end up writing.
 
 _[Note: This means that Babel converts our JSX into JS **inside** of the user's browser. This is inefficient because ideally we would convert everything in advance. In other words, this "lightweight" setup is perfect for the purposes of this challenge, but a real production app would require some more setup.](https://babeljs.io/docs/babel-standalone#when-not-to-use-babelstandalone)_
 
@@ -53,7 +49,7 @@ Let's launch a local web server by running:
 serve
 ```
 
-Then, open [`localhost:8000`](http://localhost:8000) in your browser. If you see a message about React, then your project is set up with React.
+Then, open [`localhost:8000`](http://localhost:8000)in your browser. If you see a message about React, then your project is set up with React.
 
 ## The To-do App
 

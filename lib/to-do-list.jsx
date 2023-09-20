@@ -1,9 +1,11 @@
 const App = () => {
   const [todos, changeTodos] = React.useState([
-    { title: "Code a to-do list", done: false },
+    { title: "Write a book", done: false },
     { title: "Eat breakfast", done: true },
     { title: "Do some exercise", done: false },
     { title: "Water the plants", done: true },
+    { title: "Do some code", done: false },
+
   ]);
 
   const [title, setTitle] = React.useState("");
@@ -34,6 +36,7 @@ const App = () => {
   };
 
   return (
+  <div class= "container">
     <div id="app">
       <h1>To-do List</h1>
       <ul>
@@ -83,6 +86,7 @@ const App = () => {
         </div>
       </form>
     </div>
+   </div>
   );
 };
 
